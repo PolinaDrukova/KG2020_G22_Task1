@@ -68,7 +68,6 @@ public class DrawPanel extends JPanel {
             g.fillRect(x + 180 - width2 * 2 + i * 10, y - 50 - width2 * 2, width2, width2 * 2);
             i++;
         }
-
         g.setStroke(new BasicStroke(5.0f));
         g.drawLine(x + 215, y - 50, x + 215, y - 200);
 
